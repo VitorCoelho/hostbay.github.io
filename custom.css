@@ -13,3 +13,7 @@ body {
 .btn-primary {
     background-image: linear-gradient(to bottom, #337AB7 0px, #337AB7 100%);
     background-repeat: repeat-x;
+}
+.btn-primary:hover {
+    background-image: #337AB7;
+}
