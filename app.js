@@ -1039,14 +1039,14 @@ var ChatBox = React.createClass({
           className: 'text-right text-muted',
           style: { marginTop: '-15px' }
         },
-        'Users online: ' + Object.keys(chatStore.state.userList).length + ' ',
+        'Jogadores online: ' + Object.keys(chatStore.state.userList).length + ' ',
         // Show/Hide userlist button
         el.button(
           {
             className: 'btn btn-default btn-xs',
             onClick: this._onUserListToggle
           },
-          chatStore.state.showUserList ? 'Hide' : 'Show'
+          chatStore.state.showUserList ? 'Esconder' : 'Mostrar'
         )
       ),
       // Show userlist
@@ -1644,7 +1644,7 @@ var Tabs = React.createClass({
             href: 'javascript:void(0)',
             onClick: this._makeTabChangeHandler('ALL_BETS')
           },
-          'Todas as Apostas'
+          'All Bets'
         )
       ),
       // Only show MY BETS tab if user is logged in
@@ -1656,7 +1656,7 @@ var Tabs = React.createClass({
               href: 'javascript:void(0)',
               onClick: this._makeTabChangeHandler('MY_BETS')
             },
-            'Minhas Apostas'
+            'My Bets'
           )
         ),
       // Display faucet tab even to guests so that they're aware that
