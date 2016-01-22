@@ -2128,11 +2128,11 @@ var Footer = React.createClass({
           marginTop: '200px'
         }
       },
-      'Powered by ',
+      'Powered by Moneypot',
       el.a(
         /*{
           href: '#'
-        }*/,
+        },*/
         'Moneypot'
       )
     );
