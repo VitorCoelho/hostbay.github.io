@@ -1480,7 +1480,7 @@ var BetBoxButton = React.createClass({
                 onClick: this._makeBetHandler('>'),
                 disabled: !!this.state.waitingForServer
               },
-              'Apostar Acima ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'H') : ''
+              'Acima ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'H') : ''
             )
           ),
           // bet lo
@@ -1494,7 +1494,7 @@ var BetBoxButton = React.createClass({
                 onClick: this._makeBetHandler('<'),
                 disabled: !!this.state.waitingForServer
               },
-              'Apostar Abaixo', worldStore.state.hotkeysEnabled ? el.kbd(null, 'L') : ''
+              'Abaixo', worldStore.state.hotkeysEnabled ? el.kbd(null, 'L') : ''
             )
           )
         );
@@ -1547,7 +1547,7 @@ var HotkeyToggle = React.createClass({
             onClick: this._onClick,
             style: { marginTop: '-15px' }
           },
-          'Hotkeys: ',
+          'Atalhos: ',
           worldStore.state.hotkeysEnabled ?
             el.span({className: 'label label-success'}, 'ON') :
           el.span({className: 'label label-default'}, 'OFF')
