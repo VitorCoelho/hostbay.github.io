@@ -923,7 +923,7 @@ var ChatUserList = React.createClass({
         {className: 'panel panel-default'},
         el.div(
           {className: 'panel-heading'},
-          'UserList'
+          'Lista de Jogadores'
         ),
         el.div(
           {className: 'panel-body'},
@@ -1644,7 +1644,7 @@ var Tabs = React.createClass({
             href: 'javascript:void(0)',
             onClick: this._makeTabChangeHandler('ALL_BETS')
           },
-          'All Bets'
+          'Todas as Aposstas'
         )
       ),
       // Only show MY BETS tab if user is logged in
@@ -1656,7 +1656,7 @@ var Tabs = React.createClass({
               href: 'javascript:void(0)',
               onClick: this._makeTabChangeHandler('MY_BETS')
             },
-            'My Bets'
+            'Minhas Apostas'
           )
         ),
       // Display faucet tab even to guests so that they're aware that
