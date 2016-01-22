@@ -1860,21 +1860,21 @@ var FaucetTabContent = React.createClass({
     case 'SUCCESSFULLY_CLAIMED':
       innerNode = el.div(
         null,
-        'Successfully claimed ' + this.state.claimAmount/100 + ' bits.' +
+        'Voce reinvindicou ' + this.state.claimAmount/100 + ' bits.' +
           // TODO: What's the real interval?
-          ' You can claim again in 5 minutes.'
+          ' Voce pode refazer isso em 5 minutos.'
       );
       break;
     case 'ALREADY_CLAIMED':
       innerNode = el.div(
         null,
-        'ALREADY_CLAIMED'
+        'Voce ja reinvindicou nos ultimos 5 minutos'
       );
       break;
     case 'WAITING_FOR_SERVER':
       innerNode = el.div(
         null,
-        'WAITING_FOR_SERVER'
+        'Esperando servidor...'
       );
       break;
     default:
