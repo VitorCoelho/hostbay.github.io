@@ -2117,7 +2117,7 @@ var TabContent = React.createClass({
     }
   }
 });
-
+/*
 var Footer = React.createClass({
   displayName: 'Footer',
   render: function() {
@@ -2137,7 +2137,7 @@ var Footer = React.createClass({
       )
     );
   }
-});
+});*/
 
 var App = React.createClass({
   displayName: 'App',
