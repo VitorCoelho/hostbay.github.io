@@ -770,7 +770,7 @@ var UserBox = React.createClass({
               '&redirect_uri=' + config.redirect_uri,
             className: 'btn btn-default'
           },
-          'Login with Moneypot'
+          'Logar via Moneypot'
         )
       );
     }
@@ -1450,12 +1450,12 @@ var BetBoxButton = React.createClass({
       // If there's a betbox error, then render button in error state
 
       var errorTranslations = {
-        'CANNOT_AFFORD_WAGER': 'You cannot afford wager',
-        'INVALID_WAGER': 'Invalid wager',
-        'INVALID_MULTIPLIER': 'Invalid multiplier',
-        'MULTIPLIER_TOO_PRECISE': 'Multiplier too precise',
-        'MULTIPLIER_TOO_HIGH': 'Multiplier too high',
-        'MULTIPLIER_TOO_LOW': 'Multiplier too low'
+        'CANNOT_AFFORD_WAGER': 'Aposta muito baixa',
+        'INVALID_WAGER': 'Aposta invalida',
+        'INVALID_MULTIPLIER': 'Multiplicador Invalido',
+        'MULTIPLIER_TOO_PRECISE': 'Multiplicador muito preciso',
+        'MULTIPLIER_TOO_HIGH': 'Multiplicador muito alto',
+        'MULTIPLIER_TOO_LOW': 'Multiplicador muito baixo'
       };
 
       innerNode = el.button(
@@ -1507,7 +1507,7 @@ var BetBoxButton = React.createClass({
             '&redirect_uri=' + config.redirect_uri,
           className: 'btn btn-lg btn-block btn-success'
         },
-        'Login with MoneyPot'
+        'Logar via MoneyPot'
       );
     }
 
