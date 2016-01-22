@@ -453,7 +453,7 @@ var chatStore = new Store('chat', {
     self.emitter.emit('change', self.state);
     socket.emit('new_message', { text: text }, function(err) {
       if (err) {
-        alert('Chat Error: ' + err);
+        alert('Erro no Chat: ' + err);
       }
     });
   });
@@ -1480,7 +1480,7 @@ var BetBoxButton = React.createClass({
                 onClick: this._makeBetHandler('>'),
                 disabled: !!this.state.waitingForServer
               },
-              'Bet Hi ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'H') : ''
+              'Apostar Acima ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'H') : ''
             )
           ),
           // bet lo
@@ -1494,7 +1494,7 @@ var BetBoxButton = React.createClass({
                 onClick: this._makeBetHandler('<'),
                 disabled: !!this.state.waitingForServer
               },
-              'Bet Lo ', worldStore.state.hotkeysEnabled ? el.kbd(null, 'L') : ''
+              'Apostar Abaixo', worldStore.state.hotkeysEnabled ? el.kbd(null, 'L') : ''
             )
           )
         );
