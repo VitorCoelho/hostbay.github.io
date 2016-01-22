@@ -15,3 +15,8 @@ body {
     background-repeat: repeat-x;
     border-color: #26A65B;
 }
+.btn-primary:hover{
+    color: #fff;
+    background-color: #006442;
+    border-color: #006442;
+}
