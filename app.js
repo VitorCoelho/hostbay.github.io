@@ -885,8 +885,8 @@ var ChatBoxInput = React.createClass({
                 type: 'text',
                 value: this.state.text,
                 placeholder: worldStore.state.user ?
-                  'Click here and begin typing...' :
-                  'Login to chat',
+                  'Clique aqui e comece a digitar...' :
+                  'Logar no chat',
                 onChange: this._onChange,
                 onKeyPress: this._onKeyPress,
                 onFocus: this._onFocus,
@@ -1644,7 +1644,7 @@ var Tabs = React.createClass({
             href: 'javascript:void(0)',
             onClick: this._makeTabChangeHandler('ALL_BETS')
           },
-          'All Bets'
+          'Todas as Apostas'
         )
       ),
       // Only show MY BETS tab if user is logged in
@@ -1656,7 +1656,7 @@ var Tabs = React.createClass({
               href: 'javascript:void(0)',
               onClick: this._makeTabChangeHandler('MY_BETS')
             },
-            'My Bets'
+            'Minhas Apostas'
           )
         ),
       // Display faucet tab even to guests so that they're aware that
