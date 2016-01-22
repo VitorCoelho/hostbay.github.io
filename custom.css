@@ -11,6 +11,7 @@ body {
     font-weight: bold;
 } 
 .btn-primary {
-    background-image: #26A65B;
+    background-color: #26A65B;
+    background-repeat: repeat-x;
     border-color: #26A65B;
 }
