@@ -875,7 +875,7 @@ var ChatBoxInput = React.createClass({
               el.span(
                 {className: 'glyphicon glyphicon-refresh rotate'}
               ),
-              ' Loading...'
+              ' Carregando...'
             )
           :
             el.input(
