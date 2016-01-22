@@ -703,7 +703,7 @@ var UserBox = React.createClass({
               className: 'btn navbar-btn btn-xs ' + (betStore.state.wager.error === 'CANNOT_AFFORD_WAGER' ? 'btn-success' : 'btn-default'),
               onClick: this._openDepositPopup
             },
-            'Deposit'
+            'Depositar'
           ),
           el.button(
             {
@@ -711,7 +711,7 @@ var UserBox = React.createClass({
               className: 'btn btn-default navbar-btn btn-xs',
               onClick: this._openWithdrawPopup
             },
-            'Withdraw'
+            'Sacar'
           )
         ),
         // Balance
@@ -746,7 +746,7 @@ var UserBox = React.createClass({
         // Logged in as...
         el.span(
           {className: 'navbar-text'},
-          'Logged in as ',
+          'Logado como ',
           el.code(null, worldStore.state.user.uname)
         ),
         // Logout button
@@ -803,7 +803,7 @@ var Navbar = React.createClass({
                 href: config.mp_browser_uri + '/apps/' + config.app_id,
                 target: '_blank'
               },
-              'View on Moneypot ',
+              'Ver no Moneypot ',
               // External site glyphicon
               el.span(
                 {className: 'glyphicon glyphicon-new-window'}
