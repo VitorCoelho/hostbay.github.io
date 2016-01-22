@@ -907,7 +907,7 @@ var ChatBoxInput = React.createClass({
                 this.state.text.trim().length === 0,
               onClick: this._onSend
             },
-            'Send'
+            'Enviar'
           )
         )
       )
@@ -1208,7 +1208,7 @@ var BetBoxMultiplier = React.createClass({
           {
             style: betStore.state.multiplier.error ? { color: 'red' } : {}
           },
-          'Multiplier:')
+          'Multiplicador:')
       ),
       el.div(
         {className: 'input-group'},
@@ -1286,7 +1286,7 @@ var BetBoxWager = React.createClass({
         el.strong(
           // If wagerError, make the label red
           betStore.state.wager.error ? { style: {color: 'red'} } : null,
-          'Wager:')
+          'Quantidade:')
       ),
       el.input(
         {
@@ -2067,7 +2067,7 @@ var AllBetsTabContent = React.createClass({
             el.th(null, 'ID'),
             el.th(null, 'Hora'),
             el.th(null, 'Jogador'),
-            el.th(null, 'Aposta'),
+            el.th(null, 'Quantidade'),
             el.th({className: 'text-right'}, 'Objetivo'),
             // el.th(null, 'Roll'),
             el.th(null, 'Resultado'),
