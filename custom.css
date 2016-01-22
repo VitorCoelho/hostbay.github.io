@@ -10,3 +10,7 @@ body {
 .navbar .navbar-right {
     font-weight: bold;
 } 
+.btn-primary {
+    background-image: #26A65B;
+    border-color: #26A65B;
+}
