@@ -17,6 +17,9 @@ body {
 }
 .btn-primary:hover{
     color: #fff;
-    background-color: #006442;
+    background-color: linear-gradient(to bottom, #26A65B 0px, #006442 100%);
     border-color: #006442;
+}
+.btn-primary:focus{
+    background-color: 006442;
 }
