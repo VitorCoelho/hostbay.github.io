@@ -1139,7 +1139,7 @@ var BetBoxProfit = React.createClass({
       null,
       el.span(
         {className: 'lead', style: { fontWeight: 'bold' }},
-        'Profit: '
+        'Lucro: '
       ),
       innerNode
     );
@@ -2066,18 +2066,18 @@ var AllBetsTabContent = React.createClass({
             null,
             el.th(null, 'ID'),
             el.th(null, 'Hora'),
-            el.th(null, 'User'),
-            el.th(null, 'Wager'),
-            el.th({className: 'text-right'}, 'Target'),
+            el.th(null, 'Jogador'),
+            el.th(null, 'Aposta'),
+            el.th({className: 'text-right'}, 'Objetivo'),
             // el.th(null, 'Roll'),
-            el.th(null, 'Outcome'),
+            el.th(null, 'Resultado'),
             el.th(
               {
                 style: {
                   paddingLeft: '50px'
                 }
               },
-              'Profit'
+              'Lucro'
             )
           )
         ),
