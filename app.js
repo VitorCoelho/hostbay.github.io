@@ -2128,13 +2128,13 @@ var Footer = React.createClass({
           marginTop: '200px'
         }
       },
-      /*'Powered by ',
+      'Powered by ',
       el.a(
-        {
+        /*{
           href: '#'
-        },
+        },*/
         'Moneypot'
-      )*/
+      )
     );
   }
 });
