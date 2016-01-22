@@ -2130,9 +2130,9 @@ var Footer = React.createClass({
       },
       'Powered by ',
       el.a(
-        /*{
+        {
           href: '#'
-        },*/
+        },
         'Moneypot'
       )
     );
