@@ -1444,7 +1444,7 @@ var BetBoxButton = React.createClass({
       // If app is loading, then just disable button until state change
       innerNode = el.button(
         {type: 'button', disabled: true, className: 'btn btn-lg btn-block btn-default'},
-        'Loading...'
+        'Carregando...'
       );
     } else if (error) {
       // If there's a betbox error, then render button in error state
@@ -1844,7 +1844,7 @@ var FaucetTabContent = React.createClass({
     if (!worldStore.state.user) {
       return el.p(
         {className: 'lead'},
-        'You must login to claim faucet'
+        'Voce precisa estar logado para reinvindicar bits no faucet'
       );
     }
 
