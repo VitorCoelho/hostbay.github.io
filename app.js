@@ -2065,7 +2065,7 @@ var AllBetsTabContent = React.createClass({
           el.tr(
             null,
             el.th(null, 'ID'),
-            el.th(null, 'Time'),
+            el.th(null, 'Hora'),
             el.th(null, 'User'),
             el.th(null, 'Wager'),
             el.th({className: 'text-right'}, 'Target'),
